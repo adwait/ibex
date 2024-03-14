@@ -1,0 +1,121 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Oct 02 07:32:46 2022
+[*]
+[dumpfile] "\\wsl$\Ubuntu-18.04\home\adwait\Documents\hardware-designs\ibex\sim.fst"
+[dumpfile_mtime] "Sun Oct 02 03:16:59 2022"
+[dumpfile_size] 423871
+[savefile] "\\wsl$\Ubuntu-18.04\home\adwait\Documents\hardware-designs\ibex\gtkw\basic.gtkw"
+[timestart] 18
+[size] 1280 657
+[pos] -1 -1
+*-2.000000 161 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.ibex_simple_system.
+[treeopen] TOP.ibex_simple_system.u_top.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.gen_regfile_ff.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.gen_regfile_ff.register_file_i.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.cs_registers_i.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.cs_registers_i.g_pmp_registers.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.cs_registers_i.g_pmp_registers.g_pmp_csrs[0].
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.g_pmp.
+[treeopen] TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.g_pmp.pmp_i.
+[sst_width] 322
+[signals_width] 301
+[sst_expanded] 1
+[sst_vpaned_height] 173
+@28
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.clk_i
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.rst_ni
+@22
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.hart_id_i[31:0]
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.boot_addr_i[31:0]
+@28
+[color] 3
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.instr_gnt_i
+[color] 3
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.instr_rvalid_i
+@22
+[color] 3
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.instr_rdata_i[38:0]
+@28
+[color] 3
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.instr_err_i
+[color] 2
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.data_gnt_i
+[color] 2
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.data_rvalid_i
+@22
+[color] 2
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.data_rdata_i[38:0]
+@28
+[color] 2
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.data_err_i
+@22
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.rf_rdata_a_ecc_i[38:0]
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.rf_rdata_b_ecc_i[38:0]
+@28
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.irq_external_i
+@22
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.irq_fast_i[14:0]
+@28
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.irq_nm_i
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.irq_software_i
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.irq_timer_i
+@22
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.ic_data_rdata_i(0)[63:0]
+@28
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.ic_data_req_o[1:0]
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.ic_scr_key_valid_i
+@22
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.ic_tag_rdata_i(0)[21:0]
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.ic_tag_rdata_i(1)[21:0]
+@28
+[color] 5
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.debug_req_i
+@22
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.fetch_enable_i[3:0]
+@100000028
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.csr_pmp_cfg(0).mode[1:0]
+@28
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.csr_pmp_cfg(0).lock
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.csr_pmp_cfg(0).read
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.csr_pmp_cfg(0).write
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.csr_pmp_cfg(0).exec
+@22
+TOP.ibex_simple_system.u_top.u_ibex_top.u_ibex_core.cs_registers_i.g_pmp_registers.g_pmp_csrs[0].u_pmp_addr_csr.rdata_q[31:0]
+TOP.ibex_simple_system.u_top.u_ibex_top.gen_regfile_ff.register_file_i.g_rf_flops[30].rf_reg_q[38:0]
+TOP.ibex_simple_system.u_top.u_ibex_top.gen_regfile_ff.register_file_i.g_dummy_r0.rf_r0_q[38:0]
+TOP.ibex_simple_system.u_top.fetch_enable_i[3:0]
+@28
+TOP.ibex_simple_system.u_top.scan_rst_ni
+TOP.ibex_simple_system.u_top.test_en_i
+TOP.ibex_simple_system.u_top.ram_cfg_i.ram_cfg.cfg_en
+@22
+TOP.ibex_simple_system.u_top.ram_cfg_i.ram_cfg.cfg[3:0]
+TOP.ibex_simple_system.u_top.ram_cfg_i.rf_cfg.cfg[3:0]
+TOP.ibex_simple_system.u_top.ram_cfg_i.rf_cfg.cfg[3:0]
+@28
+TOP.ibex_simple_system.u_top.data_gnt_i
+TOP.ibex_simple_system.u_top.instr_gnt_i
+@22
+TOP.ibex_simple_system.u_top.instr_rdata_intg_i[6:0]
+@28
+TOP.ibex_simple_system.u_top.instr_rvalid_i
+TOP.ibex_simple_system.u_top.instr_req_o
+@22
+TOP.ibex_simple_system.u_top.instr_addr_o[31:0]
+@29
+TOP.ibex_simple_system.u_top.instr_gnt_i
+[pattern_trace] 1
+[pattern_trace] 0
